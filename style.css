@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fixed{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+p{
+    color: #808e9a;
+}
+
+/* start css */
+.header-section{
+    background: #1abc9c;
+    padding: 20px 30px;
+}
+.header-left{
+    width: 30%;
+    color: #fff;
+}
+.header-right{
+    width: 70%;
+}
+.header-right ul{
+
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+/* banner-section */
+.banner-section{
+    background: url(./DAPS-2-1-750x334.jpg) no-repeat center center;
+    padding: 220px 0;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.banner-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 188, 156,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.banner-section h1{
+	font-size: 45px;
+}
+.banner-section h5 {
+	padding: 50px 0;
+	font-size: 21px;
+}
+.banner-section a{
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+/* service-section */
+.service-section{
+  
+    border-bottom: 1px solid #0dbf9b;
+}
+.service-headding h1{
+    padding: 40px 0;
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(59, 66, 66);
+
+}
+
+.service-items{
+    float: left;
+    width: 25%;
+    padding: 60px 0;
+}
+.service-items h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: rgb(44, 56, 56);
+    font-weight: 500;
+  
+}
+.service-items span{
+    color: #0dbf9b;
+    font-size: 30px;
+}
+
+/* about-section */
+.about-section{
+    padding: 60px 20px;
+}
+.about-headding{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.about-headding h1 {
+	padding-bottom: 20px;
+	font-weight: 500;
+    font-size: 40px;
+    color: rgb(59, 66, 66);
+}
+.about-left-img{
+    float: left;
+    width: 30%;
+}
+.about-right-content{
+    float: right;
+    width: 70%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.content{
+    padding: 15px;
+}
+.content h3{
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #404d57;
+
+}
+/* contact-section */
+.contact-section{
+    background: #f6f6f6;
+    padding: 70px 100px;
+    text-align: center;
+}
+.contact-headding h1{
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(59, 66, 66);
+}
+.contact-headding p{
+    padding-bottom: 50px;
+    padding-top: 30px;
+
+}
+.contact-items{
+    float: left;
+    width: 33.3%;
+}
+.contact-items span{
+    color: #0dbf9b;
+    padding-bottom: 10px;
+    display: block;
+}
+
+/* social-menu */
+.social-menu{
+    background: #0dbf9b;
+    padding: 20px 0;
+}
+.social-menu ul{
+    text-align: center;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.social-menu ul li a:hover{}
+/* footer-section */
+.footer-section{
+    background: #2c3e50;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
